@@ -1,8 +1,30 @@
-## Version
-- OpenCV 3.2
-- Python 2.7
-- Tesseract 4.0a
-- Windows 64-bit [(Only tested on Windows 10, likely works on Windows 7)]
+### Summary
+- [OpenCV 3.2.0](https://github.com/opencv/opencv)
+  - with [opencv_contrib](https://github.com/opencv/opencv_contrib) modules
+  - with [Tesseract 4.0.0a](https://github.com/tesseract-ocr/tesseract) support (*need to install separately*)
+  - without CUDA support
+  - with OpenCV documents, (*~\doc\html\index.html*)
+  - with OpenCV example programs binary (*~\samples*)
+  - with OpenCV tutorials programs binary (*~\x64\vc14\samples*)
+- Python 2.7.12 / Anaconda 64-bit
+- Windows 64-bit (*Only tested on Windows 10, likely works on Windows 7*)
+- Complied by Visual Studio 2015 
+
+### Installation
+
+1. Download win_x64/OpenCV-3.2.0-AMD64.exe
+2. Install OpenCV
+3. Copy *C:\Program Files\OpenCV 3.2.0\python\2.7\x64\cv2.pyd* to Python's *lib\site-packages* directory
+4. Add Windows Environment as, *OPENCV_DIR* = *C:\Program Files\OpenCV 3.2.0\x64\vc14*
 
 
+### Verify installation
 
+```sh
+import cv2
+
+print cv2.__version__
+```
+3.2.0
+
+*update on March 4, 2017*
