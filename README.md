@@ -10,9 +10,10 @@
 - Windows 64-bit (*Only tested on Windows 10, likely works on Windows 7*)
 - Compiled by Visual Studio 2015 
 
+
 ## Installation
 1. Download *win_x64/OpenCV-3.2.0-AMD64.exe*
-2. Install OpenCV
+2. Install OpenCV to *C:\Program Files\OpenCV 3.2.0*
 3. Copy *C:\Program Files\OpenCV 3.2.0\python\2.7\x64\cv2.pyd* to Python's *lib\site-packages* directory
 4. Add Windows Environment *OPENCV_DIR* = *C:\Program Files\OpenCV 3.2.0\x64\vc14*
 
@@ -20,11 +21,11 @@
 ## Verify OpenCV
 ```sh
 import cv2
-
 print cv2.__version__
-```
-3.2.0
 
+*output:*
+3.2.0
+```
 
 
 
