@@ -7,7 +7,7 @@
   - with OpenCV example programs binary (*~\samples*)
   - with OpenCV tutorial programs binary (*~\x64\vc14\samples*)
 - Python 2.7.12 / [Anaconda 64-bit](https://www.continuum.io/)
-- Windows 64-bit (*Only tested on Windows 10 runing on Intel i7, likely works on Windows 7*)
+- Windows 64-bit (*Tested on Intel i7 running Windows 10, likely works on Windows 7/8*)
 - Compiled by Visual Studio 2015 
 
 
