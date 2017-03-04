@@ -23,7 +23,6 @@
 import cv2
 print cv2.__version__
 ```
-[output]
 3.2.0
 
 
