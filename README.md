@@ -27,4 +27,6 @@ print cv2.__version__
 
 
 
-**update on March 4, 2017**
+
+
+*update on March 4, 2017*
